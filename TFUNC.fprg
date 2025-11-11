@@ -4,9 +4,9 @@
         <attribute name="name" value="test-recursive-01"/>
         <attribute name="authors" value="WINDOWS 11"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 08:56:11 PM"/>
+        <attribute name="saved" value="2025-11-11 08:59:15 PM"/>
         <attribute name="created" value="V0lORE9XUyAxMTtSQUZBRUxTSVNFTU9TOzIwMjUtMTEtMTE7MDg6MTY6MzUgUE07MjkzOQ=="/>
-        <attribute name="edited" value="V0lORE9XUyAxMTtSQUZBRUxTSVNFTU9TOzIwMjUtMTEtMTE7MDg6NTY6MTEgUE07MzszMDQ3"/>
+        <attribute name="edited" value="V0lORE9XUyAxMTtSQUZBRUxTSVNFTU9TOzIwMjUtMTEtMTE7MDg6NTk6MTUgUE07NTszMDU2"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,7 +14,7 @@
             <declare name="n, hasil" type="Integer" array="False" size=""/>
             <input variable="n"/>
             <output expression="&quot;Bilangan yang dimasukkan (N) : &quot; &amp; n" newline="True"/>
-            <output expression="&quot;Hasil perhitungan rekursif: &quot; &amp; &quot;(&quot; &amp; n &amp; &quot;)&quot; &amp; &quot; : &quot; &amp; angka(n)" newline="True"/>
+            <output expression="&quot;Hasil perhitungan rekursif &quot; &amp; &quot;(&quot; &amp; n &amp; &quot;)&quot; &amp; &quot; : &quot; &amp; angka(n)" newline="True"/>
         </body>
     </function>
     <function name="angka" type="Integer" variable="result">
