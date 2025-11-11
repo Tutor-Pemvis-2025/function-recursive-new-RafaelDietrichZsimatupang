@@ -4,16 +4,16 @@
         <attribute name="name" value="test-recursive-01"/>
         <attribute name="authors" value="WINDOWS 11"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 09:01:54 PM"/>
+        <attribute name="saved" value="2025-11-11 09:04:55 PM"/>
         <attribute name="created" value="V0lORE9XUyAxMTtSQUZBRUxTSVNFTU9TOzIwMjUtMTEtMTE7MDg6MTY6MzUgUE07MjkzOQ=="/>
-        <attribute name="edited" value="V0lORE9XUyAxMTtSQUZBRUxTSVNFTU9TOzIwMjUtMTEtMTE7MDk6MDE6NTQgUE07NjszMDQ4"/>
+        <attribute name="edited" value="V0lORE9XUyAxMTtSQUZBRUxTSVNFTU9TOzIwMjUtMTEtMTE7MDk6MDQ6NTUgUE07NzszMDUz"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="n, hasil" type="Integer" array="False" size=""/>
             <input variable="n"/>
-            <output expression="&quot;Bilangan yang dimasukkan (N) : &quot; &amp; n" newline="True"/>
+            <output expression="&quot;Bilangan yang dimasukkan : &quot; &amp; n" newline="True"/>
             <output expression="&quot;Hasil perhitungan rekursif : &quot; &amp; angka(n)" newline="True"/>
         </body>
     </function>
